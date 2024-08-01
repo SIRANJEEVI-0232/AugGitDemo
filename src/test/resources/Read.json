@@ -1,0 +1,13 @@
+{
+	"name": "siranjeevi",
+	"age": 28,
+	"status": true,
+	"address": {
+		" state": " Tamil Nadu",
+		" country": " India"
+	},
+	"courses": [
+		"selenium",
+		"java"
+	]
+}
