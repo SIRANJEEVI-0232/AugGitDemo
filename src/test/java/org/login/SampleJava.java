@@ -3,6 +3,8 @@ package org.login;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -23,5 +25,11 @@ public class SampleJava {
 	System.out.println(jsonObject.get("status"));
 	System.out.println(jsonObject.get("address"));
 	System.out.println(jsonObject.get("courses"));
+	
+	List a= new ArrayList();
+	a.add(10);
+	a.add(20);
+	a.add(30);
+	System.out.println(a);
 	}
 }
